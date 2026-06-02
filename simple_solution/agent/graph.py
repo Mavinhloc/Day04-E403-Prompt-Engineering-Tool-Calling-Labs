@@ -110,7 +110,7 @@ def build_agent(
     data_dir: Path | None = None,
     output_dir: Path | None = None,
     *,
-    provider: str = "google",
+    provider: str = "custom",
     model_name: str | None = None,
     today: str | None = None,
 ):
@@ -126,7 +126,7 @@ def build_agent(
 def run_agent(
     query: str,
     *,
-    provider: str = "google",
+    provider: str = "custom",
     model_name: str | None = None,
     data_dir: Path | None = None,
     output_dir: Path | None = None,

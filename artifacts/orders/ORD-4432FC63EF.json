@@ -1,0 +1,45 @@
+{
+  "order_id": "ORD-4432FC63EF",
+  "created_at": "2026-06-01",
+  "status": "confirmed",
+  "customer": {
+    "name": "",
+    "phone": "",
+    "email": "",
+    "shipping_address": ""
+  },
+  "items": [
+    {
+      "product_id": "LT-002",
+      "sku": "APL-MBA-M3-13",
+      "name": "MacBook Air M3 13",
+      "category": "laptop",
+      "quantity": 1,
+      "unit_price": 28900000,
+      "line_total": 28900000
+    },
+    {
+      "product_id": "MN-004",
+      "sku": "SAM-VFS6-34",
+      "name": "Samsung ViewFinity S6 34",
+      "category": "monitor",
+      "quantity": 4,
+      "unit_price": 12990000,
+      "line_total": 51960000
+    }
+  ],
+  "pricing": {
+    "currency": "VND",
+    "subtotal": 80860000,
+    "discount_rate": 0.2,
+    "discount_amount": 16172000,
+    "final_total": 64688000
+  },
+  "discount": {
+    "campaign_code": "",
+    "customer_tier": "standard"
+  },
+  "notes": "",
+  "save_path": "artifacts\\orders\\ORD-4432FC63EF.json",
+  "source": "llm-order-agent"
+}
